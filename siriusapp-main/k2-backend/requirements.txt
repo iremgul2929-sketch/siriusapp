@@ -1,9 +1,0 @@
-# Backend çalışma bağımlılıkları. Kurulum (k2-backend/ klasöründeyken):
-#   pip install -r requirements.txt
-fastapi>=0.110
-uvicorn[standard]>=0.29
-numpy>=1.26
-opencv-python-headless>=4.9
-mediapipe>=0.10.14
-# K1'in paketi (el noktası çıkarma, pencere). K2 bu kodu kullanır ama değiştirmez.
--e ../k1-yapay-zeka

@@ -1,5 +1,0 @@
-# Gerçek model (sirius.tflite) geldiğinde kurun. Demo modu için gerekmez.
-#   pip install -r requirements-model.txt
-# Bu paket sizin bilgisayarınızda kurulamazsa, yerine `pip install tensorflow`
-# kurmanız da yeterli; backend ikisini de otomatik dener.
-ai-edge-litert>=1.0

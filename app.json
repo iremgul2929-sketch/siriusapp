@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Sirius",
+    "slug": "sirius-app",
+    "version": "0.1.0",
+    "scheme": "sirius",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sirius.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Sirius, işaret dilini algılamak için kameranızı kullanır."
+      }
+    },
+    "android": {
+      "package": "com.sirius.app",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Sirius, işaret dilini algılamak için kameranızı kullanır."
+        }
+      ],
+      "expo-asset",
+      "expo-video",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Sirius, söylediklerinizi yazıya çevirmek için mikrofonunuzu kullanır.",
+          "speechRecognitionPermission": "Sirius, söylediklerinizi yazıya çevirmek için konuşma tanımayı kullanır."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
