@@ -1,0 +1,4 @@
+# K1 gelistirme ortami. Kurulum: pip install -r requirements.txt
+-e .[vision,train]
+jupyter>=1.0
+pytest>=8.0

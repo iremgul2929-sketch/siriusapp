@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: sirius-ai
+Version: 0.1.0
+Summary: Sirius: el noktasi cikarma, isaret siniflandirma modeli ve TFLite donusumu
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26
+Provides-Extra: vision
+Requires-Dist: opencv-python>=4.9; extra == "vision"
+Requires-Dist: mediapipe>=0.10.14; extra == "vision"
+Provides-Extra: train
+Requires-Dist: tensorflow>=2.16; extra == "train"
+Requires-Dist: scikit-learn>=1.4; extra == "train"
+Requires-Dist: matplotlib>=3.8; extra == "train"
+Requires-Dist: pandas>=2.2; extra == "train"

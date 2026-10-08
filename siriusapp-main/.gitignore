@@ -1,0 +1,35 @@
+# --- Node / Expo ---
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+mobil/ios/
+mobil/android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Veri ve modeller (repoya girmez) ---
+k1-yapay-zeka/data/raw/
+k1-yapay-zeka/data/processed/
+k1-yapay-zeka/models/*
+!k1-yapay-zeka/models/README.md
+k2-backend/models/*
+!k2-backend/models/README.md
+
+# --- Ortam ---
+.env
+.env.local
+.DS_Store
+*.log

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sirius-ai"
+version = "0.1.0"
+description = "Sirius: el noktasi cikarma, isaret siniflandirma modeli ve TFLite donusumu"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+vision = ["opencv-python>=4.9", "mediapipe>=0.10.14"]
+train = ["tensorflow>=2.16", "scikit-learn>=1.4", "matplotlib>=3.8", "pandas>=2.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

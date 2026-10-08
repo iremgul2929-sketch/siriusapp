@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sirius-web",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "cd /d C:\\Users\\aryam\\OneDrive\\Belgeler\\sirius-app\\sirius-app && npx expo start --port 8083"
+      ],
+      "port": 8083
+    }
+  ]
+}
